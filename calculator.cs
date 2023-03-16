@@ -1,13 +1,16 @@
 class Calculator
 {
-	static void main(string[] args)
+	static void Main(string[] args)
 	{
 		
 	}
 	
-	static int penambahan(int a, int b)
+	static int Penambahan(int a, int b)
 	{
 		return a + b;
 	}
-	
+	static int Pengurangan(int a, int b)
+	{
+		return a - b;
+	}
 }
